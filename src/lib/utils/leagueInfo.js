@@ -1,6 +1,6 @@
 /*   STEP 1   */
 export const leagueID = "1057817021729075200"; // your league ID
-export const leagueName = "IDP Mania 2 Electric Bugaloo"; // your league name
+export const leagueName = "IDP Mania"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
@@ -25,8 +25,8 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "84743767206543360": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "doublefdoubleg": "Your Name",
+      "roster": "84743767206543360",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "Spencer",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Connecticut", // (optional)
       "bio": "LaPorta buried Kyle Pitts.",
@@ -47,8 +47,8 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "160225092348297216": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "alpacalypse": "Your Name",
+      "roster": "160225092348297216",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "alpacalypse",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Mom's Basement", // (optional)
       "bio": "Dallas? Well, they're at least they're not the Giants.",
@@ -69,8 +69,8 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "219291458924965888": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-      "revskip": "Your Name",
+      "roster": "219291458924965888",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+      "name": "revskip",
       "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Brooklyn", // (optional)
       "bio": "Lorem ipsum...",
